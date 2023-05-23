@@ -115,7 +115,7 @@
                                             <div class="block-description">
                                                 <h6 class="iq-title"><a href="show-detail.html"><?= $tvShow->name; ?></a></h6>
                                                 <div class="movie-time d-flex align-items-center my-2">
-                                                    <span class="text-white">1hr : 50mins</span>
+                                                    <span class="text-white">Rating <?= $tvShow->vote_average; ?></span>
                                                 </div>
                                                 <div class="hover-buttons">
                                                     <a href="show-detail.html" role="button" class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
