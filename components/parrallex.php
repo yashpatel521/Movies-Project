@@ -2,7 +2,12 @@
 $movie = $TopRatedMoviesList->results[0];
 ?>
 
-<section id="parallex" class="parallax-window" style="background: url(<?= IMAGEURL . 'original' . $movie->backdrop_path; ?>) center center;">
+<section id="parallex" class="parallax-window" style=" height: 100%;
+	padding: 6.25em 0;
+	position: relative;
+	background: url(<?= IMAGEURL . 'original' . $movie->backdrop_path; ?>)center center;
+	background-size: cover;
+	background-attachment: fixed;">
     <div class="container-fluid h-100">
         <div class="row align-items-center justify-content-center h-100 parallaxt-details">
             <div class="col-xl-5 col-lg-12 col-md-12 r-mb-23">
