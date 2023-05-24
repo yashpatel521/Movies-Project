@@ -1,6 +1,5 @@
 <?php
 
-$appendApiKey = '?api_key=' . APIKEY . '&language=en-US';
 
 $genere = callAPI('GET', BASEURL . 'genre/movie/list' . $appendApiKey);
 

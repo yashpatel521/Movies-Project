@@ -13,7 +13,7 @@ $movie = $TopRatedMoviesList->results[0];
             <div class="col-xl-5 col-lg-12 col-md-12 r-mb-23">
                 <div class="text-left">
                     <a href="javascript:void(0);">
-                        <h2><strong><em><?= $movie->title; ?></em></strong></h2>
+                        <h1 class="trending-text big-title text-uppercase mt-0"><?= $movie->title; ?></h1>
                     </a>
                     <div class="parallax-ratting d-flex align-items-center mt-3 mb-3">
                         <ul class="ratting-start p-0 m-0 list-inline text-primary d-flex align-items-center justify-content-left">

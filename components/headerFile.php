@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- swiper -->
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
-    <link rel="stylesheet" href="./assets/ css/swiper.css">
+    <link rel="stylesheet" href="./assets/css/swiper.css">
 </head>
 
 <body>

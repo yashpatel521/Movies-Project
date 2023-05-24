@@ -1,7 +1,10 @@
 <!-- Slider Start -->
+<br>
 <section id="home-banner-slider" class="iq-main-slider p-0 iq-rtl-direction swiper banner-home-swiper overflow-hidden" data-swiper="home-banner-slider">
     <div class="slider m-0 p-0 swiper-wrapper home-slider">
-        <?php for ($i = 0; $i < 3; $i++) {
+        <?php
+        for ($i = 0; $i < 5; $i++) {
+            // for ($i = 0; $i < sizeof($popularMoviesList->results); $i++) {
             $genreList = [];
             $movie = $popularMoviesList->results[$i];
             foreach ($genere->genres as $item) {
@@ -39,6 +42,7 @@
                                     </div>
                                     <div class="d-flex align-items-center mt-2 mt-md-3">
                                         <span class="badge badge-secondary p-2">Rating <?= $movie->vote_average; ?></span>
+                                        <span class="ml-3"></span>
                                     </div>
                                     <p data-iq-gsap="onStart" data-iq-position-x="0" data-iq-position-y="150" data-iq-duration="1" data-iq-delay=".5"><?= $movie->overview; ?>
                                     </p>
@@ -52,11 +56,11 @@
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center r-mb-23" data-iq-gsap="onStart" data-iq-position-x="0" data-iq-position-y="150" data-iq-duration="1" data-iq-delay=".6">
-                                    <a href="show-details.html" class="btn btn-hover iq-button"><i class="fa fa-play mr-2" aria-hidden="true"></i>Play Now</a>
+                                    <a href="details.php?type=movie&id=<?= $movie->id; ?>" class="btn btn-hover iq-button"><i class="fa fa-play mr-2" aria-hidden="true"></i>Details</a>
                                 </div>
                             </div>
                             <div class=" col-lg-5 col-md-12 trailor-video iq-slider d-none d-lg-block">
-                                <a href="video/trailer.mp4" class="video-open playbtn" tabindex="0">
+                                <a href="https://www.youtube.com/watch?v=<?= getVideo($movie->id) ?>" class="video-open playbtn" tabindex="0">
                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7" xml:space="preserve">
                                         <polygon class="triangle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
                                         <circle class="circle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3">
