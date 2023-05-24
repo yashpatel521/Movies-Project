@@ -58,15 +58,15 @@
             <section class="slider">
                 <div class="slider-flex position-relative">
                     <div class="swiper-button-prev verticle-btn"></div>
-                    <h4 class="main-title ">Trending Tv Shows</h4>
+                    <h4 class="main-title ">Popular Tv Shows</h4>
                     <div class="slider--col position-relative">
                         <div class="slider-prev btn-verticle"><i class="ri-arrow-up-s-line vertical-aerrow"></i></div>
                         <div class="slider-thumbs" data-swiper="slider-thumbs">
                             <div class="swiper-container " data-swiper="slider-thumbs-inner">
                                 <div class="swiper-wrapper top-ten-slider-nav">
                                     <?php
-                                    for ($i = 0; $i < sizeof($TrendingTvShowList->results); $i++) {
-                                        $tvShow = $TrendingTvShowList->results[$i];
+                                    for ($i = 0; $i < sizeof($TopRatedTvShowsList->results); $i++) {
+                                        $tvShow = $TopRatedTvShowsList->results[$i];
                                     ?>
                                         <div class="swiper-slide swiper-bg">
                                             <div class="block-images position-relative ">
@@ -106,8 +106,8 @@
                         <div class="swiper-container " data-swiper="slider-images-inner">
                             <div class="swiper-wrapper ">
                                 <?php
-                                for ($i = 0; $i < sizeof($TrendingTvShowList->results); $i++) {
-                                    $tvShow = $TrendingTvShowList->results[$i];
+                                for ($i = 0; $i < sizeof($TopRatedTvShowsList->results); $i++) {
+                                    $tvShow = $TopRatedTvShowsList->results[$i];
                                 ?>
                                     <div class="swiper-slide">
                                         <div class="slider--image block-images"><img src="<?= IMAGEURL . 'original' . $tvShow->backdrop_path; ?>" loading="lazy" alt="" /></div>

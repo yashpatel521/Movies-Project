@@ -48,9 +48,9 @@
                             <h6 class="footer-link-title">Streamit App</h6>
                             <div class="d-flex align-items-center">
                                 <a class="app-image" href="#">
-                                    <img src="images/footer/01.jpg" loading="lazy" alt="play-store">
+                                    <img src="./assets/images/footer/01.jpg" loading="lazy" alt="play-store">
                                 </a><br>
-                                <a class="ml-3 app-image" href="#"><img src="images/footer/02.jpg" loading="lazy" alt="app-store"></a>
+                                <a class="ml-3 app-image" href="#"><img src="./assets/images/footer/02.jpg" loading="lazy" alt="app-store"></a>
                             </div>
                         </div>
                     </div>

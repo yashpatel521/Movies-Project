@@ -15,7 +15,7 @@ include('./components/header.php');
 include('./components/slider.php');
 include('./components/moviesList.php');
 include('./components/parrallex.php');
-include('./components/swiperGallery.php');
+// include('./components/swiperGallery.php');
 include('./components/recommend.php');
 include('./components/footer.php');
 //Content of the page End

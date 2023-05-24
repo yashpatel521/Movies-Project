@@ -3829,23 +3829,7 @@ object {
 /*----------------------------------------------trailer-----------------------------------------*/
 
 .trending-tab-slider .swiper-bg.slider-big-img-1 {
-  background-image: url(../images/tvthrillers/01.jpg);
   background-repeat: no-repeat;
-}
-.trending-tab-slider .swiper-bg.slider-big-img-2 {
-  background-image: url(../images/tvthrillers/02.jpg);
-}
-.trending-tab-slider .swiper-bg.slider-big-img-3 {
-  background-image: url(../images/tvthrillers/03.jpg);
-}
-.trending-tab-slider .swiper-bg.slider-big-img-4 {
-  background-image: url(../images/tvthrillers/04.jpg);
-}
-.trending-tab-slider .swiper-bg.slider-big-img-5 {
-  background-image: url(../images/tvthrillers/05.jpg);
-}
-.trending-tab-slider .swiper-bg.slider-big-img-6 {
-  background-image: url(../images/tvthrillers/06.jpg);
 }
 .trending-content {
   padding: 0px 3.125em;
